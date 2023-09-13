@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+header {
+    margin: 100px 90px ;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.logo p {
+    color: #FFF;
+    font-size: 22px
+}
+
+.menu {
+    display: flex;
+    margin-left: 257px
+}
+
+.menu li {
+    padding: 40px;
+    font-size: 22px
+}
+
+.conteudo {
+   display: flex;
+   justify-content: center;
+   margin: 100px 90px;
+}
+
+.conteudo .descricao {
+
+}
+
+.conteudo .tecnologia{
+    color: #9130F4;
+    font-size: 99px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 99px;
+    word-wrap: break-word
+}
+
+.conteudo .noseubolso {
+    color: white;
+    font-size: 90px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 90px;
+    word-wrap: break-word
+}
+
+.conteudo .descricao p {
+    color: white;
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 28.60px;
+    letter-spacing: 0.88px;
+    word-wrap: break-word;
+    margin-top: 26px;
+    
+}
+
+.botao {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 18px;
+    word-wrap: break-word;
+    background: none;
+    padding: 28px 67px;
+    border: 4px solid #9130F4;
+    margin-top: 38px;
+}
+
+.cartao-frente {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 30px;
+    width: 500px;
+    height: 250px;
+    position: relative;
+}
